@@ -1,0 +1,31 @@
+.header {
+  background-color: #f8f9fa;
+  font-family: "Roboto Condensed";
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+
+  &__logo {
+    height: 65%;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  &__nav a {
+    text-decoration: none;
+    color: #b5b6b7;
+
+    &:hover,
+    &:focus {
+      color: #000000;
+    }
+  }
+}
