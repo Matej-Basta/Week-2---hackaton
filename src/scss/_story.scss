@@ -10,6 +10,10 @@
     flex-direction: column;
   }
 
+  @media (max-width: 486px) {
+    padding: 3rem 2rem 2rem;
+  }
+
   &__text {
     display: flex;
     flex-direction: column;
@@ -22,6 +26,7 @@
       font-size: 2.5rem;
       font-weight: 100;
       margin-bottom: 4rem;
+      text-align: center;
     }
 
     &__paragraph {

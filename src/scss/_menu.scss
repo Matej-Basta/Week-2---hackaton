@@ -14,6 +14,7 @@
   &__heading {
     font-weight: 100;
     font-size: 2.5rem;
+    text-transform: uppercase;
 
     @media (min-width: 430px) {
       font-size: 2.8rem;
@@ -42,6 +43,7 @@
       font-weight: 100;
       font-size: 2rem;
       margin-bottom: 1rem;
+      text-transform: uppercase;
 
       @media (min-width: 430px) {
         font-size: 2.3rem;
@@ -77,6 +79,7 @@
     font-weight: 100;
     font-size: 2rem;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 
     @media (min-width: 430px) {
       font-size: 2.3rem;
