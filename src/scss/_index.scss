@@ -15,16 +15,15 @@
 
 .home__img,
 .contact__img {
-  width: 90vw;
+  width: 100%;
   display: block;
-  margin: auto;
 }
 
 .home {
-  margin: 1rem;
+  margin: 2rem;
 
   &__heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   &__heading2 {
@@ -34,9 +33,15 @@
 }
 
 .contact {
-  margin: 1rem;
+  margin: 2rem;
 
   &__container {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     &__item {
       margin-bottom: 1rem;
     }
@@ -47,5 +52,12 @@
     &__item p {
       margin-bottom: 0.5rem;
     }
+  }
+}
+
+main {
+  @media (min-width: 768px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
