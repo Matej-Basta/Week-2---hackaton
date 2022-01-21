@@ -1,0 +1,51 @@
+.home,
+.contact,
+.home__heading,
+.home__heading2,
+.contact__container__item h3 {
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.contact__container__item p {
+  text-transform: none;
+  font-weight: 100;
+}
+
+.home__img,
+.contact__img {
+  width: 90vw;
+  display: block;
+  margin: auto;
+}
+
+.home {
+  margin: 1rem;
+
+  &__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  &__heading2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.contact {
+  margin: 1rem;
+
+  &__container {
+    &__item {
+      margin-bottom: 1rem;
+    }
+    &__item h3 {
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
+    &__item p {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
